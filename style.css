@@ -1,0 +1,116 @@
+
+.navbar {
+    transition: all 0.4s;
+}
+
+.navbar .nav-link {
+    color: rgb(15, 3, 3);
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color:#fff(231, 152, 152);
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+.active a{
+    color:black !important;
+}
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+}
+
+
+
+
+*/
+.text-small {
+    font-size: 0.9rem !important;
+}
+
+.Img{
+    /* background-color:rgb(70, 132, 226); */
+   background-image: url(images/banner.png);
+}
+
+.search{
+    border-radius: 40px;
+    border: 1px solid black ;
+
+}
+.maya{
+    border: none;
+    background:none;
+    outline-style: none;
+}
+
+/* center a div */
+
+
+
+.fit{
+color: black;
+align-items: center;
+}
+
+.para{
+    color: black;
+}
+
+.prop{
+    width: 300px;
+    background-color: transparent;
+    
+}
+
+.card{
+    text-align: center;
+}
+.BGFooter{
+    background-color: dimgrey;
+}
+
+.BGimg{
+    background-image: url(images/bg3.jpg);
+    background-size: cover;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.txtcenter{
+text-align: center;
+}
+
